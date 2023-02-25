@@ -1,0 +1,81 @@
+.app {
+    padding: 2rem;
+    background-color: #c1bfbf;
+    height: 100vh;
+}
+
+/* Form */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #1f527c;
+    padding: 1.5rem;
+    box-shadow: rgba(57, 57, 61, 0.2) 0px 8px 28px 0px;
+    border-radius: 3px;
+}
+
+.form-container form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.input-container {
+    min-height: 280px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-bottom: 2rem;
+}
+
+label {
+    font-weight: bold;
+    color: #d7d7d7;
+    font-size: 0.9rem;
+}
+
+input,
+textarea {
+    padding: .6rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(45, 42, 42, 0.2) 0px 2px 8px 0px;
+}
+
+textarea {
+    height: 120px;
+}
+
+/* Actions */
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.actions button {
+    display: flex;
+    gap: .5rem;
+    text-align: center;
+    font-size: .9rem;
+    background-color: #f0f0f0;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.actions button:hover {
+    background-color: #6bb8f7cd;
+    color: #fff;
+}
+button span {
+    color: rgb(39, 39, 39);
+    transition: .3s;
+}
+button span:hover{
+    color: #fff;
+}
